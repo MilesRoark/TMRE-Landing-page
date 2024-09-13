@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="Assets/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+    <title>The Miles Roark Experiment</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="Assets/MiRo Logo.svg" alt="Miles Roark logo" />
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#store">Store</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="socials" id="home">
+        <h3>Hey, Glad you showed</h3>
+        <p>Check out all the fun stuff at...</p>
+        <div class="socimgs">
+          <a
+            href="https://open.spotify.com/artist/4tfcNuxisYg3d6rffvDgvI?si=2IPTJiqrRDaacCKEDDGhRg"
+            target="_blank"
+            rel="noopener noreferer"
+            ><img src="Assets/spotify.png" alt="Spotify Page"
+          /></a>
+          <a
+            href="https://www.youtube.com/@themilesroarkexperiment1662"
+            target="_blank"
+            rel="noopener noreferer"
+            ><img src="Assets/youtube.png" alt="Youtube Page"
+          /></a>
+          <a
+            href="https://soundcloud.com/themilesroarkexperiment"
+            target="_blank"
+            rel="noopener noreferer"
+            ><img src="Assets/soundcloud.png" alt="Soundcloud Page"
+          /></a>
+          <a
+            href="https://twitter.com/miles_roark"
+            target="_blank"
+            rel="noopener noreferer"
+            ><img src="Assets/twitter.png" alt="Twitter Page"
+          /></a>
+          <a
+            href="https://www.facebook.com/Mil3sRoark"
+            target="_blank"
+            rel="noopener noreferer"
+            ><img src="Assets/facebook.png" alt="Facebook Page"
+          /></a>
+        </div>
+      </section>
+      <section class="about">
+        <img
+          src="Assets/Heroimg.png"
+          alt="Miles with a fender stratocaster"
+          class="hero"
+          id="about"
+        />
+        <div class="about-text">
+          <p>
+            My first love was guitar but now I've become a more rounded
+            musician. I create using the Image-Line Fl Studio D.A.W. and my
+            influences run from Jimi Hendrix all the way to Jadakiss. This
+            Ecleticness reflects in the things I create.
+          </p>
+        </div>
+      </section>
+      <section id="videos">
+        <div class="videos">
+          <h2>Videos</h2>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/k2yWG1Qja8s?si=ZKhP05-wRFJO5P2F"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/-R9nXlLDSS0?si=X5yCohkG_0Cgfuqn"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section id="store">
+        <div class="albums">
+          <h2>Albums</h2>
+          <ul class="albprices">
+            <li>
+              <a
+                href="https://themilesroarkexperiment.bandcamp.com/album/shouldawouldacoulda"
+                target="_blank"
+                rel="noopener noreferer"
+                ><img
+                  src="Assets/Shouldawouldacoulda.jpg"
+                  alt="Cover photo for Shouldawouldacoulda"
+                  class="album-cover"
+                />
+                <p>Price: $12.00</p>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://themilesroarkexperiment.bandcamp.com/album/war-jamming"
+                target="_blank"
+                rel="noopener noreferer"
+                ><img
+                  src="Assets/War Jamming  Alt.jpg"
+                  alt="Cover photo for War Jamming"
+                  class="album-cover"
+                />
+                <p>price:$12.00</p>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://themilesroarkexperiment.bandcamp.com/album/many-men"
+                target="_blank"
+                rel="noopener noreferer"
+                ><img
+                  src="Assets/Many Men Front.jpg"
+                  alt="Album cover for Many Men"
+                  class="album-cover"
+                />
+                <p>Price:$12.00</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="contact">
+          <p>Comments and Suggestions welcome</p>
+          <form
+            id="customer_info"
+            action="https://formspree.io/f/mrbzveje"
+            method="POST"
+          >
+            <label for="Name"
+              >Name:
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="ChuckinChuck"
+              />
+            </label>
+            <label for="email"
+              >Email:
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="sexymofo@sexymofomail.com"
+              />
+            </label>
+            <label for="comments" id="comments">
+              <textarea
+                name="comments"
+                id="comments"
+                name="textarea"
+                cols="8"
+                rows="8"
+                placeholder="what's up..."
+              ></textarea>
+            </label>
+          </form>
+          <button id="submit" form="customer_info" class="submit">Send</button>
+        </div>
+      </section>
+      <footer>
+        <p>Copyright&copy Miles Roark 2024.</p>
+        <p>Logo Designed by<a href="http://www.freepik.com"> Freepik</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
